@@ -36,7 +36,7 @@ inline void Relogio::setHora(int hora) {
     _hora = hora < 24 ? hora : 0;
 }
 inline void Relogio::setMinuto(int minuto) {
-    _minuto= minuto < 60 ? minuto : 0;
+    _minuto = minuto < 60 ? minuto : 0;
 }
 
 
